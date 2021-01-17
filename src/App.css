@@ -1,0 +1,68 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(120deg, #1160E0, #16E1F0);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header,
+.input__form {
+  margin-bottom: 2rem;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.input__form {
+  
+}
+
+.item__list {
+  list-style-type: none;
+}
+
+.item__div {
+  /* min-width: 300px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.item {
+  flex: 1;
+  padding: 1rem;
+}
+
+.checked {
+    text-decoration: line-through;
+    opacity: 50%;
+    font-style: italic;
+}
+
+.item__button {
+    padding: 1rem;
+    min-width: 86px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.5s ease;
+}
+
+.check:hover {
+  background-color: green;
+  color: white;
+}
+
+.remove:hover {
+  background-color: red;
+  color:white;
+}
+
